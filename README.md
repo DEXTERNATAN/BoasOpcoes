@@ -1,2 +1,2 @@
 # BoasOpcoes
-Projeto para busca de profissionais
+Projeto para busca e contratação de profissionais.
