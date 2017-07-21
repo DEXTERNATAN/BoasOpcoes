@@ -1,0 +1,64 @@
+#menu {
+    text-align: right;
+    background-color: #f3f3f3;
+    font: 12px arial, helvetica, freesans, sans-serif;
+    font-weight: bold;
+}
+
+#menu ul li {
+    color: black;
+    display: inline-block;
+    height: 35px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+#conteudo-principal {
+    min-width: 100%;
+}
+
+#conteudo-principal .imagem{
+    padding: 0px;
+    text-align: center;
+}
+
+#conteudo-principal h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font: 12px arial, helvetica, freesans, sans-serif;
+    font-size: 25px;
+}
+
+#conteudo-principal .formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#conteudo-principal .formulario input {
+    height: 30px;
+    width: 35%;
+}
+
+#conteudo-principal .formulario button {
+    height: 36px;
+    margin-left: 3px;
+}
+
+#rodape {
+    background-color: #333;
+    height: 35px;
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#rodape .copyright {
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 0 0 0;
+}

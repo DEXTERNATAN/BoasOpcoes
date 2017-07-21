@@ -1,0 +1,161 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5a6766;
+}
+
+#menu {
+    text-align: right;
+    background-color: #f3f3f3;
+    font: 12px arial, helvetica, freesans, sans-serif;
+    font-weight: bold;
+}
+
+#menu ul li {
+    color: black;
+    display: inline-block;
+    height: 35px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+#conteudo-principal {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 35px 0;
+}
+
+#conteudo-principal .formulario {
+    text-align: center;
+}
+
+#conteudo-principal .card {
+    padding: 35px 0;
+    background-color: #C0C0C0;
+    color: white;
+    padding-left: 1%;
+}
+
+#conteudo-principal .card h1 {
+    color: #06476d;
+    font-size: 1.75em;
+    line-height: 2;
+    color: white;
+}
+
+#conteudo-principal .card p {
+    line-height: 1.5;
+}
+
+#conteudo-principal .imagem {
+    padding: 0px;
+    text-align: center;
+}
+
+
+/* #conteudo-principal .card-form {
+    border: 1px solid red;
+} */
+
+#conteudo-principal h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font: 12px arial, helvetica, freesans, sans-serif;
+    font-size: 25px;
+}
+
+#area {
+    position: relative;
+    left: 30%;
+    top: 70%;
+    width: 320px;
+    height: 270px;
+    
+}
+
+#area #formulario {
+    position: absolute;
+    display: block;
+    top: 10px;
+}
+
+fieldset {
+    width: 300px;
+    height: 250px;
+}
+
+legend {
+    font-weight: bold;
+    font-family: "Segoe UI";
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario label {
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+}
+
+#formulario input.campo_nome {
+    position: absolute;
+    left: 93px;
+    top: 23px;
+    width: 225px;
+}
+
+#formulario input.campo_email {
+    position: absolute;
+    left: 93px;
+    margin-top: 2px;
+    width: 225px;
+}
+
+#formulario textarea.msg {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+#formulario input.btn_submit {
+    border-style: dashed;
+    position: absolute;
+    bottom: -1.5em;
+    right: 10px;
+    left: 266px;
+}
+
+#conteudo-principal .formulario input {
+    height: 30px;
+    width: 35%;
+}
+
+#conteudo-principal .formulario button {
+    height: 36px;
+    margin-left: 3px;
+}
+
+#rodape {
+    background-color: #333;
+    height: 35px;
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#rodape .copyright {
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 0 0 0;
+}
