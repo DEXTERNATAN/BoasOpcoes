@@ -40,3 +40,7 @@
     font-size: 85%;
 }
 
+p.card-text {
+    font-weight: bold;
+    text-align: center;
+}
